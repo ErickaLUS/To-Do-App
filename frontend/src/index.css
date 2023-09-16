@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #BECEDD;
 }
 
 
@@ -42,14 +43,15 @@ input{
 
 .add{
   cursor:pointer;
-  background-color: #000;
+  background-color: #3E3E3E;
   color: #ffff;
   padding: 0.5rem 1.5rem;
+  border-radius: 5px;
 }
 .todo{
 position: relative;
 margin-top: 1rem;
-background-color: #000;
+background-color: #3E3E3E;
 padding: 1.5rem 3rem;
 border-radius: 5px;
 color: #ffff;
