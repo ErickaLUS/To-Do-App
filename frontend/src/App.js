@@ -28,7 +28,7 @@ function App() {
            () => updateToDo(toDoId,text,setToDo, setText,setIsUpdating)
             : () => addToDo(text,setText,setToDo)}>
              
-              {isUpdating ?  "update" : "Ajouter"}
+              {isUpdating ?  "mise à jour" : "Ajouter"}
               
               </div>
         </div>
