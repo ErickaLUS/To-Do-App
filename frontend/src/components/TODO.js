@@ -8,7 +8,7 @@ const TODO = ({text,updateMode,deleteToDo}) => {
       <div className="text">{text}</div>
       <div className="icons">
         <BiEdit className="icon" onClick={updateMode} />
-        <AiFillDelete className="icon" onclick={deleteToDo} />
+        <AiFillDelete className="icon" onClick={deleteToDo} />
       </div>
     </div>
   );
